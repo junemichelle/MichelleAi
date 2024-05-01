@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey ask me fun facts about michelle. Please do not ask questions that may jeopardise her security :) not that I'd tell you anyway 😂",
+        "Hello, ask me fun facts about michelle. Please do not ask questions that may jeopardise her security :) not that I'd tell you anyway 😂",
+        "Hi there, ask me fun facts about michelle. Please do not ask questions that may jeopardise her security :) not that I'd tell you anyway 😂",
+        "Hi there, ask me fun facts about michelle. Please do not ask questions that may jeopardise her security :) not that I'd tell you anyway 😂"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funfact",
+      "patterns":  [
+        "Tell me a fun fact!",
+        "Fun fact about Michelle",
+        "What's an interesting fact about Michelle?",
+        "Do you know any fun facts about Michelle?"
+      ],
+      "responses": [
+        "Don't tell her i told you this but, Did you know that Michelle does a very weird thing where she fabricates personalities according each person she meets! Do you know Michelle as a shy and reserved person, outgoing and fun or silly and often doesn't know what she is doing? Or do you find her mature for her age and much more calm.",
+        "Here's a fun fact: Michelle can speak multiple languages fluently! Do you want to know which languages she speaks",
+        "Fun fact alert: Michelle is a certified scuba diver! I'm just kidding she doesn't even know how to swim 😂"
+      ]
+    },
+
+    {
+      "tag": "shy",
+      "patterns": [
+        "I know Michelle as a very shy person",
+        "she is shy",
+        "I know her as a quite shy ",
+        "shy",
+        "she is shy"
+      ],
+      "responses": [
+        "If you find her shy, you are one of the lucky ones! she doesn't often show this side of her. You should know that most of the time she really does not care about anything or you (no offense). Do you have any more questions?"
+      ]
+    },
+    {
+      "tag": "mature",
+      "patterns": [
+        "I know Michelle as a very mature person",
+        "she is very calm and mature",
+        "I know her as a quite calm ",
+        "she is a very mature",
+        "mature",
+        "calm"
+      ],
+      "responses": [
+        "If you find her mature and calm or maybe even more reserved, then she finds you the opposite of that she finds you quite silly or childish even. We can't all be silly yk, nani atakua tegemeo sasa 😂. Do you have any more questions?"
+      ]
+    },
+    {
+      "tag": "silly",
+      "patterns": [
+        "I know Michelle as a very silly person she jokes around too much",
+        "Michelle jokes around",
+        "I know her as a fun loving  person who enjoys making people laugh.",
+        "she is a very outgoing person",
+        "She has a great sense of humor.",
+        "silly"
+      ],
+      "responses": [
+        "She must really enjoy your company and probably likes you that's why she could be silly and jokes around you. Do you have any more questions?"
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "what languages does Michelle speak?",
+        "How many languages does Michelle speak?",
+        "Does michelle speak multiple languages?"
+      ],
+      "responses": [
+        "Michelle speaks multiple languages, Swahili, English, kikalenjin, ( Javascript, Python 🌚) and she learnt French in Highschool although she has probably forgotten how to speak but won't admit it 💀",
+        "She does speak many languages, Swahili, English, kikalenjin, (Javascript, Python 🌚) and French. Although many people argue that she is not fluent in any of them, it is better to be a Jack of all trades and master of none(in her defence)😂"
+      ]
+    },
+    {
+      "tag": "talent",
+      "patterns": [
+        "does michelle have any talents?",
+        "what talents does michelle have?",
+        "is michelle talented in anything?",
+        "can you share michelle's talents"
+      ],
+      "responses": [
+        "I have no idea about any talents she has but she is a very fun person to be around 😌",
+        "She is very creative and if she were not lazy she could have been a very talented writer and artist !",
+        "Michelle loves solving puzzles and solving math equations. You could say that that is not a talent but problem solving is a talent not many people can do it!",
+        "Michelle is very funny and creative, I mean she did create me!! That is great talent in my opinion"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is michelle's full name?",
+        "Tell me Michelle's name.",
+        "Do you know Michelle's real name?",
+        "what is michelle's full government name?"
+      ],
+      "responses": [
+        "Michelle's full name is Michelle June Chemutai! A very beautiful name tbh 😩",
+        "Michelle's name is just as beautiful as she is! Michelle June Chemutai!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "I find Michelle pretty",
+        "Michelle is very beautiful",
+        "Does Michelle know she is very intelligent",
+        "Michelle is beautiful, pretty, intelligent and very nice"
+      ],
+      "responses": [
+        "That's so sweet! You can tell her this here is her Instagram account (trust.me.its.just.me)."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "why did the tomato turn red?...  because it saw the salad dressing! 💀",
+        "Why do cows wear bells?... Because their horns don't work.😂"
+      ]
+    }
+  ]
+}
